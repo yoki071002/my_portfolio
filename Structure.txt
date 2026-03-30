@@ -1,0 +1,21 @@
+Home page
+Archive
+Footprints (考古网站 + 我的足迹)
+Curriculum (intern)
+About me (就是教育经历啊contact info啊这些基础信息）
+
+Theme:
+digital museum
+中国风画廊
+
+Workflow
+- Overall structure✅
+- Homepage placeholder & nav bar✅
+- experience & projects json✅
+- experience & projects interface defi✅
+- experience & projects card component✅
+- experience & projects page✅
+- about page✅
+- map page（上段 - 交互地图，中段 - 护照，下段 - 记忆碎片）
+- home page
+- overall ui design
