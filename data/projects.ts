@@ -17,9 +17,9 @@ export const projects = [
         title: "Personal Portfolio: The Digital Museum",
         category: "Web Development",
         status: "In Development",
-        summary: "A high-performance personal portfolio built with Next.js, featuring a 'Digital Museum' theme to showcase the intersection of technology and humanities.",
-        tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-        link: "/",
+        summary: "A high-performance personal portfolio built with Next.js, featuring a 'Digital Museum' theme to showcase my experience and projects.",
+        tech: ["Next.js", "TypeScript", "Tailwind CSS", "Three.js"],
+        link: "https://github.com/yoki071002/my_portfolio",
         highlights: [
             "Server-side rendering for optimal performance.",
             "Custom-designed UI inspired by traditional Chinese aesthetics."

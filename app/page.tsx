@@ -1,33 +1,26 @@
-// app/page.tsx
-import Link from 'next/link';
+"use client";
+
+import React from "react";
+import { Canvas } from "@react-three/fiber";
+import GenerativeScroll from "../components/homepage/GenerativeScroll";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center min-h-[80vh] px-12 md:px-24 max-w-5xl mx-auto">
-      <div className="space-y-6">
-        <h2 className="text-sm tracking-widest text-zhusha uppercase font-semibold">
-          Hello, World / 你好
-        </h2>
+    <div className="absolute inset-0 z-0 w-full h-screen overflow-hidden">
+      
+      <Canvas 
+        camera={{ position: [0, 0, 5], fov: 75 }} 
+        dpr={[1, 2]}
+      >
+        <ambientLight intensity={0.5} />
         
-        <h1 className="text-4xl md:text-6xl font-serif text-xuanblack leading-tight">
-          NAME <br />
-          <span className="opacity-40 text-3xl md:text-5xl">SUB title</span>
-        </h1>
-        
-        <p className="max-w-xl text-sm leading-relaxed opacity-70 mt-6 font-sans">
-        </p>
+        <GenerativeScroll />
+      </Canvas>
+
+      <div className="relative z-10 w-full h-full pointer-events-none">
+        {/* Placeholder for the Kintsugi Signature component */}
       </div>
 
-      <div className="flex gap-6 mt-12">
-        <Link href="/projects" 
-              className="px-6 py-3 border border-xuanblack text-xuanblack text-xs uppercase tracking-widest hover:bg-xuanblack hover:text-xuan transition-colors">
-          View Projects
-        </Link>
-        <Link href="/about" 
-              className="px-6 py-3 border border-transparent text-zhusha text-xs uppercase tracking-widest hover:border-zhusha/30 transition-colors">
-          About Me →
-        </Link>
-      </div>
     </div>
   );
 }
