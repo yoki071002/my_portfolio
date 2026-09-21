@@ -89,7 +89,7 @@ export default function AboutPage() {
                   <div className="relative pl-4 border-l-2 border-zhusha/10">
                     <div className="text-xs flex flex-col gap-1">
                       <span className="text-xuanblack font-bold uppercase tracking-wider text-[11px]">B.A. in Applied Mathematics</span>
-                      <span className="text-zhusha font-bold tracking-widest uppercase text-[9px]">GPA: 3.91 / 4.00 | Dean's List</span>
+                      <span className="text-zhusha font-bold tracking-widest uppercase text-[9px]">GPA: 3.93 / 4.00 | Dean's List</span>
                     </div>
                   </div>
                   <div className="relative pl-4 border-l-2 border-zhusha/10">
