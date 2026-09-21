@@ -28,7 +28,7 @@ export default function AboutPage() {
 
               <div className="mt-8 space-y-2">
                 <h2 className="text-lg font-serif font-bold tracking-tighter italic">YUTONG QIN</h2>
-                <p className="text-[9px] tracking-[0.3em] text-zhusha font-bold">JUNIOR</p>
+                <p className="text-[9px] tracking-[0.3em] text-zhusha font-bold">SENIOR</p>
               </div>
 
               <div className="mt-auto w-full border-t border-dashed border-gray-200 pt-4 text-left space-y-1">
@@ -69,10 +69,10 @@ export default function AboutPage() {
             <div className="lg:col-span-2 space-y-12">
               <section className="space-y-6">
                 <p className="text-sm leading-relaxed opacity-80 first-letter:text-4xl first-letter:font-serif first-letter:mr-2 first-letter:float-left first-letter:text-zhusha">
-                  I am a Junior at Boston University pursuing a double major in Applied Mathematics and CS & Economics. 
-                  My academic pursuit is centered on the intersection of technical rigor and humanistic inquiry. 
-                  I'm building foundations in mathematics, computing, and statistical modeling, while gradually exploring machine learning and NLP. 
-                  In the future, I aim to pursue applied ML/NLP, focusing on building practical, scalable systems that solve real-world problems.
+                  I am a Senior at Boston University pursuing a double major in Applied Mathematics and CS & Economics. 
+                  My academic pursuit is centered on the intersection of mathematical rigor, computing systems, and machine learning. 
+                  With a solid foundation in algorithms, statistical modeling, and numerical analysis, I am currently exploring scalable AI systems, RAG architectures, and NLP. 
+                  I aim to pursue graduate studies in Computer Science, building practical and robust computational tools to tackle complex real-world problems.
                 </p>
                 <p className="text-sm leading-relaxed opacity-80 italic border-l-2 border-zhusha/20 pl-6">
                   "Bridging the gap between ancient history and modern AI through the lens of mathematical stability."
@@ -95,7 +95,7 @@ export default function AboutPage() {
                   <div className="relative pl-4 border-l-2 border-zhusha/10">
                     <div className="text-xs flex flex-col gap-1">
                       <span className="text-xuanblack font-bold uppercase tracking-wider text-[11px]">B.A. in Computer Science & Economics (Joint)</span>
-                      <span className="text-zhusha font-bold tracking-widest uppercase text-[9px]">GPA: 3.91 / 4.00 | Dean's List</span>
+                      <span className="text-zhusha font-bold tracking-widest uppercase text-[9px]">GPA: 3.93 / 4.00 | Dean's List</span>
                     </div>
                   </div>
 
@@ -103,14 +103,14 @@ export default function AboutPage() {
                     <p className="text-[9px] uppercase tracking-[0.2em] font-bold opacity-30 mb-4 text-xuanblack">Technical Coursework Archive</p>
                     <div className="grid grid-cols-2 gap-x-8 gap-y-3">
                       {[
-                        { code: "MA 586", name: "Stochastic Methods" },
+                        { code: "CS 330", name: "Algorithms" },
                         { code: "CS 542", name: "Machine Learning" },
                         { code: "MA 416", name: "Analysis of Variance" },
-                        { code: "CS 330", name: "Algorithms" },
                         { code: "MA 539", name: "Scientific Computing" },
+                        { code: "MA 586", name: "Stochastic Methods" },
                         { code: "EC 224", name: "Econometric Analysis" },
                         { code: "CS 210", name: "Computer Systems" },
-                        { code: "MA 242", name: "Linear Algebra" }
+                        { code: "MA 416", name: "Analysis of Variance" }
                       ].map((course) => (
                         <div key={course.code} className="flex justify-between items-end border-b border-gray-50 pb-1 group">
                           <span className="font-mono text-[9px] text-zhusha/50 group-hover:text-zhusha transition-colors tracking-tighter">
@@ -159,7 +159,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <h3 className="text-xs font-bold tracking-[0.4em] uppercase opacity-40">Technical DNA</h3>
                 <div className="flex flex-wrap gap-2">
-                  {["PyTorch", "Scikit-learn", "NLP", "PySpark", "Statistical Inference", "Optimization", "Regression", "TypeScript"].map(skill => (
+                  {["PyTorch", "Scikit-learn", "Hugging Face", "PySpark", "Statistical Inference", "Optimization", "Regression", "TypeScript"].map(skill => (
                     <span key={skill} className="text-[9px] border border-gray-200 px-2 py-0.5 rounded-sm opacity-60">
                       {skill}
                     </span>
