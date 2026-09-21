@@ -16,7 +16,7 @@ export const projects = [
         id: 2,
         title: "Personal Portfolio: The Digital Museum",
         category: "Web Development",
-        status: "In Development",
+        status: "Completed",
         summary: "A high-performance personal portfolio built with Next.js, featuring a 'Digital Museum' theme to showcase my experience and projects.",
         tech: ["Next.js", "TypeScript", "Tailwind CSS", "Three.js"],
         link: "https://github.com/yoki071002/my_portfolio",
